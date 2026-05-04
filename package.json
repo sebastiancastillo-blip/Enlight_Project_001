@@ -1,0 +1,17 @@
+{
+  "name": "enlight-faurecia-0425-api-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard base ENLIGHT para consulta en tiempo real de planta FV FAURECIA 0425 mediante proxy seguro.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
